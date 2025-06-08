@@ -87,6 +87,7 @@ class DataIngestion:
         except Exception as e:
             raise NetworkSecurityException(e,sys)
         
+        
     def initiate_data_ingestion(self):
         try:
             dataframe=self.export_collection_as_dataframe()
@@ -95,6 +96,6 @@ class DataIngestion:
             dataingestionartifact=DataIngestionArtifact(trained_file_path=self.data_ingestion_config.training_file_path,
                                                         test_file_path=self.data_ingestion_config.testing_file_path)
             return dataingestionartifact
- 
+
         except Exception as e:
             raise NetworkSecurityException
