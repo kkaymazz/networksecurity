@@ -1,10 +1,16 @@
-python-dotenv
-pandas
-numpy
-pymongo
-certifi
-pymongo[srv]==4.7
-scikit-learn
-pyaml
+python-dotenv         # Loads environment variables from a .env file into the system environment.
+pandas                # Used for data manipulation and analysis, especially with tabular data.
+numpy                 # Provides support for large, multi-dimensional arrays and numerical operations.
+pymongo               # Enables interaction with MongoDB databases using Python.
+certifi               # Provides Mozilla’s root certificates to validate the trustworthiness of SSL certificates.
+pymongo[srv]==4.7     # Allows using MongoDB's SRV connection strings with PyMongo (same as above but with SRV support).
+scikit-learn          # Machine learning library for building and training models like classification and regression.
+pyaml                 # Parses and writes YAML files, often used for configuration.
+mlflow                # Tracks ML experiments, logs models, and manages machine learning lifecycle.
+dagshub               # Enables integration with DagsHub for data, model versioning, and MLflow tracking.
+fastapi               # A modern, fast web framework for building APIs with Python based on standard type hints.
+uvicorn               # A lightning-fast ASGI server to run FastAPI apps.
+python-multipart
+
 
 ##-e .

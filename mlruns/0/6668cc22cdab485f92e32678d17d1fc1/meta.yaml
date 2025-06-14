@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Projects/NetworkSecurity/mlruns/0/6668cc22cdab485f92e32678d17d1fc1/artifacts
+end_time: 1749487290956
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6668cc22cdab485f92e32678d17d1fc1
+run_name: abundant-penguin-542
+run_uuid: 6668cc22cdab485f92e32678d17d1fc1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749487281874
+status: 3
+tags: []
+user_id: kadir2
